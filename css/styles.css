@@ -1,16 +1,16 @@
-.p-one {
-                color: blue;
-                font-size: 48px;
-            }
-            .p-one {
-                color: brown;
-                font-style: italic;
-            }
-            #id-p-one {
-                color: cornflowerblue;
+.p-one{
+                color: blanchedalmond;
                 font-size: 30px;
             }
-            #h1-id {
-                color: bisque;
+            .h1-two{
+                color: violet;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #id-p-one{
+                color: teal;
                 font-weight: 700;
+                font-size: 35px;
+            }
+            #h1-id{
+                color: chocolate;
             }
