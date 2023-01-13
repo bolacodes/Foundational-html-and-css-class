@@ -10,22 +10,23 @@
     <h1>Registration - Enter your details</h1>
     <p>Please enter your details to complete your registration
     </p>
+
     <form action="">
-        <label for="First Name">First name</label>
-        <input type="text" name="fname" id="required">
+        <label for="first-name">First name</label>
+        <input type="text" name="fname" id="" placeholder="" required>
 
-        <label for="Last name">Last name</label>
-        <input type="text" name="lname" id="required">
+        <label for="last-name">Last name</label>
+        <input type="text" name="lname" id="" required>
 
-        <label for="Email">Email</label>
-        <input type="email" name="email" id="">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="" required>
 
-        <label for="Gender">Gender:</label>
+        <label for="gender">Gender:</label>
         
-        <label for="Male">Male</label>
+        <label for="male">Male</label>
         <input type="radio" name="gender" id="">
 
-        <label for="Female">Female</label>
+        <label for="female">Female</label>
         <input type="radio" name="gender" id="">
 
         <label for="Hobbies">Hobbies</label>
@@ -37,8 +38,18 @@
         <label for="Skating">Skating</label>
         <input type="checkbox" name="" id="">
 
-        <label for="Age range">Age range:</label>
-        <select name="age" id=""></select>
+        <label for="">Age range:</label>
+        <select name="age" id="">
+            <option value="">18-25</option>
+            <option value="">25-30</option>
+            <option value="">30-35</option>
+            <option value="">35-40</option>
+        </select>
+
+        <label for="bio">Bio</label>
+        <textarea name="bio" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
