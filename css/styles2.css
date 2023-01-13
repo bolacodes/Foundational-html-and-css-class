@@ -1,0 +1,12 @@
+h1,
+p,
+h2,
+h3{
+    color: aqua;
+    font-size: 40px;
+}
+/* you can group all your tags together if they have the same property and values, it is called the DRY (do not repeat yourself) principle.   */
+
+h1{
+    text-align: center;
+}
