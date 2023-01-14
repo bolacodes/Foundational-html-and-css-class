@@ -1,4 +1,6 @@
-form{
+form,
+h1,
+p{
     margin: 20px;
 }
 .input-fields label {
